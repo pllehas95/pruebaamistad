@@ -13,11 +13,7 @@ AmigosconBeneficiosBtn.addEventListener('click', function () {
 
 const ParejaBtn = document.querySelector('#ParejaBtn');
 
-ParejaBtn.addEventListener('mouseover', function () {
-    const randomX = parseInt(Math.random()*100);
-    const randomY = parseInt(Math.random()*100);
-    ParejaBtn.style.setProperty('top',randomY+'%');
-    ParejaBtn.style.setProperty('left',randomX+'%');
-    ParejaBtn.style.setProperty('transform',`translate(-${randomX}%,-${randomY}%)`);
+ParejaBtn.addEventListener('click', function () {
+alert('Lo siento ya tengo, pero Gracias por tener buen gusto');
 
 })
