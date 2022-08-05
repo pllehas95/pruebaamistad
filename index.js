@@ -7,7 +7,7 @@ AmigosBtn.addEventListener('click',function () {
 const AmigosconBeneficiosBtn = document.querySelector('#AmigosconBeneficiosBtn');
 
 AmigosconBeneficiosBtn.addEventListener('click', function () {
-    alert('Lo sabía')
+    alert('Lo sabía, pero no se puede')
    
 });
 
